@@ -1,15 +1,13 @@
-
-
-
 import React from 'react';
+import { FaHandshake, FaUserTie, FaAward, FaThumbsUp } from 'react-icons/fa';
 import './Partie2.css';
 
 const Partie2 = () => {
   const services = [
-    { title: "FIABILITÉ", icon: "🤝" },
-    { title: "PROFESSIONNALISME", icon: "🧑‍✈️" },
-    { title: "EXCELLENCE", icon: "🏅" },
-    { title: "SATISFACTION", icon: "👍" },
+    { title: "FIABILITÉ", icon: <FaHandshake /> },
+    { title: "PROFESSIONNALISME", icon: <FaUserTie /> },
+    { title: "EXCELLENCE", icon: <FaAward /> },
+    { title: "SATISFACTION", icon: <FaThumbsUp /> },
   ];
 
   return (
@@ -23,12 +21,5 @@ const Partie2 = () => {
     </div>
   );
 };
-
-
-
-
-
-
-
 
 export default Partie2;
