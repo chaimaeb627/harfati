@@ -10,11 +10,11 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: navy; /* Couleur par défaut */
+  background-color: navy !important; /* Couleur par défaut */
   color: white;
   width: 245px;
   padding: 20px;
-  border-radius: 40px 0 40px 0; /* Coin supérieur gauche et coin inférieur droit arrondis */
+  border-radius: 40px 0 40px 0 !important; /* Coin supérieur gauche et coin inférieur droit arrondis */
   text-align: center;
   box-shadow: 0 4px 8px antiquewhite;
   cursor: pointer;
@@ -22,7 +22,7 @@
 }
 
 .service-card.active {
-  background-color: whitesmoke; /* Couleur de fond différente lorsqu'elle est active */
+  background-color: whitesmoke !important; /* Couleur de fond différente lorsqu'elle est active */
 }
 
 .service-icon {

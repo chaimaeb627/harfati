@@ -1,86 +1,131 @@
-* {
-    box-sizing: border-box;
+/* Background and Section Styling */
+.services-section {
+  padding: 40px;
+  background-color: whitesmoke !important;
+  color: #fff !important;
+  text-align: center;
+  position: relative;
+}
+
+.services-header h1 {
+  
+    font-size: 42px;
+    font-weight: bold;
+    color: #333;
     margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-  }
-  
-  .services {
-    text-align: center;
-    padding: 2rem;
-  }
-  
-  .services-title {
-    font-size: 2rem;
-    color: #333;
-    margin-bottom: 0.5rem;
-  }
-  
-  .services-subtitle {
-    color: #888;
-    font-size: 1rem;
-    font-weight: 300;
-  }
-  
-  .underline {
-    width: 5rem;
-    height: 3px;
-    background-color: #ffc107;
-    margin: 1rem auto;
-  }
-  
-  .services-container {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    margin-top: 2rem;
-  }
-  
-  .service {
-    background-color: #fff;
-    border-radius: 8px;
-    padding: 1.5rem;
-    width: 200px;
-    text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin: 1rem;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-  }
-  
-  .service:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
-  }
-  
-  .icon {
-    font-size: 2rem;
-    color: #ffc107;
-    margin-bottom: 1rem;
-  }
-  
-  .service-title {
-    font-size: 1.2rem;
-    color: #333;
-    margin-bottom: 0.5rem;
-  }
-  
-  .service-description {
-    font-size: 0.9rem;
-    color: #777;
-    margin-bottom: 1rem;
-  }
-  
-  .learn-more-btn {
-    background-color: #ffc107;
-    color: #fff;
-    border: none;
-    padding: 0.5rem 1rem;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  
-  .learn-more-btn:hover {
-    background-color: #e0a800;
-  }
-  
+    position: relative;
+}
+.services-header h1::before {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 4px;
+  background-color: blue; /* Yellow color */
+  margin: 0 auto 10px auto;
+}
+.services-header h1::after {
+  content: "";
+  display: block;
+  width: 30px;
+  height: 4px;
+  background-color: blue; /* Yellow color */
+  margin: 10px auto 0 auto;
+}
+.services-header h2 {
+  font-size: 16px;
+    color: #666;
+    margin: 10px 0 0 0;
+    letter-spacing: 1px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.services-header h2 span {
+  color: #00bbf0 !important;
+}
+
+.view-all-button {
+  background-color: #00bbf0 !important;
+  color: #fff !important;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  margin-top: 15px;
+  transition: background-color 0.3s;
+}
+
+.view-all-button:hover {
+  background-color: #00bbf0 !important;
+}
+
+/* Carousel Styling */
+.services-carousel {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: nowrap;
+  overflow: hidden;
+  margin-top: 30px;
+}
+
+.service-card {
+  background-color: #1a1a2e;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  width: 220px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 25px rgba(123, 97, 255, 0.3);
+}
+
+.icon {
+  font-size: 40px;
+  color: antiquewhite !important;
+  margin-bottom: 15px;
+}
+
+h3 {
+  font-size: 1.2em;
+  margin: 15px 0;
+  color: #fff;
+}
+
+p {
+  font-size: 0.9em;
+  color: #aaa;
+  line-height: 1.5;
+}
+
+/* Carousel Buttons */
+.carousel-buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.carousel-button {
+  background-color: #00bbf0;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2em;
+  margin: 0 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.carousel-button:hover {
+  background-color: blue;
+}
