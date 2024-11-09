@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .services {
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .services-title {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+  }
+  
+  .services-subtitle {
+    color: #888;
+    font-size: 1rem;
+    font-weight: 300;
+  }
+  
+  .underline {
+    width: 5rem;
+    height: 3px;
+    background-color: #ffc107;
+    margin: 1rem auto;
+  }
+  
+  .services-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+  }
+  
+  .service {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 1.5rem;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 1rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .service:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  .icon {
+    font-size: 2rem;
+    color: #ffc107;
+    margin-bottom: 1rem;
+  }
+  
+  .service-title {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+  }
+  
+  .service-description {
+    font-size: 0.9rem;
+    color: #777;
+    margin-bottom: 1rem;
+  }
+  
+  .learn-more-btn {
+    background-color: #ffc107;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .learn-more-btn:hover {
+    background-color: #e0a800;
+  }
+  
