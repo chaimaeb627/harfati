@@ -17,6 +17,7 @@ const Header = () => {
       </video>
 
       <header className="header">
+        
         <div className="logo">HIRAFI</div>
         <nav className="nav">
           <ul>

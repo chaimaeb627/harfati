@@ -1,0 +1,79 @@
+/* General body styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f4f8; /* Light grey background */
+  }
+  
+  /* Dark section background */
+  .counter-section {
+    margin-top:0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: navy; /* Navy blue background */
+    padding: 60px 0;
+    color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin: 10px auto !important;
+    width: 100%;
+    margin-bottom:0 ;
+   
+  }
+  
+  /* Styling for each counter block */
+  .counter {
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+    animation: bounceIn 1s ease-out;
+  }
+  
+  .counter:hover {
+    transform: translateY(-10px);
+  }
+  
+  /* Number styling */
+  .counter h2 {
+    font-size: 55px !important;
+    font-weight: bold;
+    color: #ecf0f1; /* Light gray color for contrast */
+    margin: 0;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .counter:hover h2 {
+    color:#00bbf0; /* Yellow-orange on hover */
+  }
+  
+  /* Label styling */
+  .counter p {
+    font-size: 15px;
+    font-weight: bold;
+    color: #bdc3c7; /* Light grey */
+    margin-top: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    opacity: 0.8;
+  }
+  
+  .counter:hover p {
+    opacity: 1;
+  }
+  
+  /* Keyframes for the animation effect */
+  @keyframes bounceIn {
+    0% {
+      transform: translateY(50px);
+      opacity: 0;
+    }
+    60% {
+      transform: translateY(-10px);
+      opacity: 1;
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  

@@ -1,87 +1,90 @@
 /* App.css */
 
 .app {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-image: url('C:\Users\Dell\Pictures\2010.png');
-  background-size: cover ;
-  background-position: center center;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  background-image: url('C:\Users\Dell\Pictures\2010.png') !important;
+  background-size: cover  !important;
+  background-position: center center !important;
   
-  color: #fff;
-  height: 100vh;
-  padding: 20px;
-  font-family: 'Arial', sans-serif;
+  color: #fff !important;
+  height: 100vh !important;
+  padding: 20px !important; 
+  font-family: 'Arial', sans-serif !important;
 }
 
 .title {
-  font-size: 2rem;
-  color: whitesmoke;
-  margin-bottom: 20px;
-  text-shadow: 1px 1px 6px rgba(8, 63, 228, 0.786);
+  font-size: 2rem !important;
+  color: whitesmoke !important;
+  margin-bottom: 20px !important;
+  text-shadow: 1px 1px 6px rgba(8, 63, 228, 0.786) !important;
 }
 
 .grid {
-  padding-top: 25px;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 20px;
-  width: 100%;
-  max-width: 1000px;
-  grid-auto-flow: dense;
+  padding-top: 25px !important;
+  padding-left: 20px !important;
+  padding-right:60px  !important;
+  display: grid !important;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)) !important;
+  gap: 80px !important;
+  width: 100% !important;
+  max-width: 1000px !important;
+  grid-auto-flow: dense !important;
 }
 
 .card {
-   width:80%;
-  background-color: gray;
-  border: 2px solid rgba(8, 63, 228, 0.786);
+   width:100% !important;
+   
+  background-color: gray !important;
+  border: 2px solid rgba(8, 63, 228, 0.786) !important;
   border-radius: 10px;
-  padding: 20px;
-  text-align: center;
-  transition: transform 0.3s ease, background-color 0.3s ease;
-  cursor: pointer;
-  color: #fff;
-  text-shadow: 1px 1px 6px rgba(0, 64, 255, 0.6);
-  position: relative;
+  padding: 20px !important;
+  text-align: center !important;
+  transition: transform 0.3s ease, background-color 0.3s ease !important;
+  cursor: pointer !important;
+  color: #fff !important;
+  text-shadow: 1px 1px 6px rgba(0, 64, 255, 0.6) !important;
+  position: relative !important;
 }
 
 .card.active {
-  background-color: grey;
-  color: whitesmoke;
+  background-color: grey !important;
+  color: whitesmoke !important;
 }
 
 .card:hover {
-  transform: scale(1.05);
-  background-color: #333;
+  transform: scale(1.05) !important;
+  background-color: #333 !;
 }
 
 .card .icon {
-  font-size: 3rem;
-  margin-bottom: 10px;
+  font-size: 3rem !important;
+  margin-bottom: 10px !important;
   color:blue !important; 
 }
 
 .label {
-  font-size: 1.2rem;
-  font-weight: bold;
-  margin-bottom: 10px;
+  font-size: 1.2rem !important;
+  font-weight: bold !important;
+  margin-bottom: 10px !important;
 }
 
 .details {
-  margin-top: 15px;
-  text-align: left;
-  font-size: 0.9rem;
-  color: #fff;
+  margin-top: 15px !important;
+  text-align: left !important;
+  font-size: 0.9rem !important;
+  color: #fff !important;
 }
 
 .detail-item {
-  margin: 5px 0;
-  font-weight: normal;
+  margin: 5px 0 !important ;
+  font-weight: normal !important;
 }
 .centered {
-  display: flex;
-  width:50%;
+  display: flex !important;
+  width:55% !important;
   justify-content: center;
-  gap: 20px;
+  gap: 20px !important;
   margin-top: 20px; /* Optionnel : espace au-dessus de la dernière rangée */
 }

@@ -1,0 +1,95 @@
+/* HeroSection.css */
+.hero-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('C:\Users\Dell\Pictures\2019.png'); /* Remplacez par votre propre image */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    overflow: hidden;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+  }
+  
+  .hero-content {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    max-width: 700px;
+  }
+  
+  .contact-tag {
+    background-color: #6c63ff;
+    color: #fff;
+    padding: 8px 20px;
+    border-radius: 20px;
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 20px;
+  }
+  
+  .hero-content h1 {
+    font-size: 2.5rem;
+    line-height: 1.2;
+  }
+  
+  .hero-content h1 span {
+    color: #6c63ff;
+  }
+  
+  .hero-button {
+    background-color: #6c63ff;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background 0.3s;
+  }
+  
+  .hero-button:hover {
+    background-color: #5a54d8;
+  }
+  
+  .floating-icons {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    z-index: 3;
+  }
+  
+  .palette-icon,
+  .arrow-icon {
+    background-color: #6c63ff;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: transform 0.3s;
+  }
+  
+  .palette-icon:hover,
+  .arrow-icon:hover {
+    transform: scale(1.1);
+  }
+  
